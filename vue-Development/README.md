@@ -27,3 +27,13 @@ yarn run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+### 全局引入CSS样式
+
+```
+在main.js内增加以下代码
+
+import '@/assets/css/J-frame.css'
+
+```
